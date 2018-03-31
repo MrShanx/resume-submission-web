@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume Submission</title>
+
+	<!-- for css link -->
+	<link rel="stylesheet" type="text/css" href="test.css">
+<style>
+body, html {
+	height: 100%;
+	background-color: white;
+	margin: 0;
+}
+body {
+	height: auto;
+	background-image: url(https://www.grahambrown.com/dw/image/v2/BBBG_PRD/on/demandware.static/-/Sites-product-master/default/dw3005a09a/images/large/13199_1.jpg?sw=1024&sh=1024&sm=fit);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1000px 1800px;
+	/*margin: 0 10%;*/
+	text-align: center;
+	/*background-color: red;*/
+}
+
+header { 
+	/*background-color: red; */
+}
+section {
+	/*background-color: green;*/
+}
+form {
+	/*background-color: grey;*/
+	display: inline-block; text-align: left;
+}
+
+footer {
+	/*background-color: yellow;*/
+	padding: 100px;
+}
+</style>
+	<!-- for javascript link -->
+	<script src="test.js"></script>
+</head>
+<body>
+	<header>
+		<!-- include page heading and image -->
+		<h2>Online Resume Submission</h2>
+		<img src="anon.jpg" alt="anonymous img">
+	</header>
+	<!-- <nav></nav>empty for now -->
+	<section>
+		<!-- include form -->
+		<form method="GET">
+			<ul name="formlist">
+			<li>Name: <input type="text" name="name"><br></li>
+			<li>Address
+				<ul name="address">
+					<li>number: <input type="text" name="addnumber"></li>
+					<li>city: <input type="text" name="addcity"></li> 
+					<li>postal code: <input type="text" name="addpostal"></li>
+				</ul></li><br>
+			<li>Contact: 
+				<ul name="contact">
+					<li>email: <input type="email" name="email" required></li>
+					<li>linkedIn: <input type="text" name="linkedin"></li>
+					<li>phone: <input type="tel" name="phone" required></li>
+				</ul><br>
+			</li>
+			<li>Education:
+				<ul name="education">
+					<li>School: <input type="text" name="school"></li>
+					<li>Diploma: <input type="text" name="degree"></li>
+					<li>Major: <input type="text" name="major"></li>
+				</ul>
+			</li><br>
+			<li>Work:
+				<ul name="work">
+					<li>
+						<ul>
+							<li>Company: <input type="text" name="company"></li>
+							<li>Duration: From: <input type="date" name="empdate">
+								  To: <input type="date" name="empdate"> 
+								  	  <input type="radio" name="currentwork">I currently work here
+							</li>
+							<li>Role: <br> 
+								<textarea rows="10" cols="50" name="role"></textarea></li>
+						</ul><br>
+						<ul>
+							<li>Company: <input type="text" name="company"></li>
+							<li>Duration: From: <input type="date" name="empdate">
+								  To: <input type="date" name="empdate"> 
+								  	  <input type="radio" name="currentwork">I currently work here
+							</li>
+							<li>Role: <br> 
+								<textarea rows="10" cols="50" name="role"></textarea></li>
+						</ul><br>
+						<ul>
+							<li>Company: <input type="text" name="company"></li>
+							<li>Duration: From: <input type="date" name="empdate">
+								  To: <input type="date" name="empdate"> 
+								  	  <input type="radio" name="currentwork">I currently work here
+							</li>
+							<li>Role: <br>
+								<textarea rows="10" cols="50" name="role"></textarea></li>
+						</ul><br>
+					</li>
+				</ul>
+			</li>
+			<li>Technical Skills: <br>
+				<select name="skills">
+					<option value="java">Java</option>
+					<option value="html5">HTML5</option>
+					<option value="css3">CSS3</option>
+					<option value="javascript">Javascript</option>
+				</select>
+				<select name="proficiency">
+					<option value="beginner">beginner</option>
+					<option value="proficient">proficient</option>
+					<option value="expert">expert</option>
+				</select><br>
+				<select name="skills">
+					<option value="java">Java</option>
+					<option value="html5">HTML5</option>
+					<option value="css3">CSS3</option>
+					<option value="javascript">Javascript</option>
+				</select>
+				<select name="proficiency">
+					<option value="beginner">beginner</option>
+					<option value="proficient">proficient</option>
+					<option value="expert">expert</option>
+				</select><br>
+				<select name="skills">
+					<option value="java">Java</option>
+					<option value="html5">HTML5</option>
+					<option value="css3">CSS3</option>
+					<option value="javascript">Javascript</option>
+				</select>
+				<select name="proficiency">
+					<option value="beginner">beginner</option>
+					<option value="proficient">proficient</option>
+					<option value="expert">expert</option>
+				</select><br>
+				<select name="skills">
+					<option value="java">Java</option>
+					<option value="html5">HTML5</option>
+					<option value="css3">CSS3</option>
+					<option value="javascript">Javascript</option>
+				</select>
+				<select name="proficiency">
+					<option value="beginner">beginner</option>
+					<option value="proficient">proficient</option>
+					<option value="expert">expert</option>
+				</select><br>
+			</li><br>
+			<li><input type="submit"><input type="reset">
+			</li>
+			</ul>
+		</form>
+	</section>
+	<footer>
+		<!-- include copyright -->
+		Copyright &copy <a href="https://www.linkedin.com/in/emmanueltalan">Emmanuel Talan</a>
+	</footer>
+
+</body>
+</html>
