@@ -2,3 +2,7 @@
 
 # resume-submission-web
 HTML coding challenge
+
+<br>
+<br>
+<em>Front-end only</em>
