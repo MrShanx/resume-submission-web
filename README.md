@@ -5,4 +5,4 @@ HTML coding challenge
 
 <br>
 <br>
-<em>Front-end only</em>
+<em>Front-end</em>
